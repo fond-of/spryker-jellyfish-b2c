@@ -5,6 +5,8 @@
     
     <transfer name="JellyfishOrder">
         <property name="signupNewsletter" type="bool"/>
+        <property name="optInUrl" type="string"/>
+        <property name="optOutUrl" type="string"/>
         <property name="ip" type="string"/>
     </transfer>
     
