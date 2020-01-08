@@ -117,7 +117,6 @@ class JellyfishB2CDependencyProvider extends AbstractBundleDependencyProvider
         return $container;
     }
 
-
     /**
      * @param \Spryker\Zed\Kernel\Container $container
      *
