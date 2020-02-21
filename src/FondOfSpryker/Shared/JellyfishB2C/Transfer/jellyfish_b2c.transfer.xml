@@ -9,6 +9,8 @@
         <property name="optOutUrl" type="string"/>
         <property name="ip" type="string"/>
         <property name="userHash" type="string"/>
+        <property name="salutation" type="string"/>
+        <property name="gender" type="string"/>
     </transfer>
 
     <transfer name="JellyfishCompanyBusinessUnit">
