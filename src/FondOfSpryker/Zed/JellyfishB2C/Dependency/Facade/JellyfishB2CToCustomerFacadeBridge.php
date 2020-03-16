@@ -2,7 +2,6 @@
 
 namespace FondOfSpryker\Zed\JellyfishB2C\Dependency\Facade;
 
-use Generated\Shared\Transfer\CustomerResponseTransfer;
 use Generated\Shared\Transfer\CustomerTransfer;
 use Spryker\Zed\Customer\Business\CustomerFacadeInterface;
 
@@ -28,6 +27,6 @@ class JellyfishB2CToCustomerFacadeBridge implements JellyfishB2CToCustomerFacade
      */
     public function findCustomerById(CustomerTransfer $customerTransfer): ?CustomerTransfer
     {
-        return $this->customerFacade ->findCustomerById($customerTransfer);
+        return $this->customerFacade->findCustomerById($customerTransfer);
     }
 }
